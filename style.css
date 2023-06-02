@@ -3,15 +3,15 @@
     margin: 0;
     box-sizing: border-box;
 }
-.card-section{
-    background-color: #3a3c44;
-    height: 100vh;
+body{
+    background-color: #3a3c44 !important;
+    
 }
 .card{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 .card-color h6{
-    color: #e40663;
+    color: #6e304a;
 }
 .card2-color h6{
     color: #e44406;
