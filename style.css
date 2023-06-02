@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.card-section{
+    background-color: #3a3c44;
+    height: 100vh;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.card-color h6{
+    color: #e40663;
+}
+.card2-color h6{
+    color: #e44406;
+}
+.card3-color h6{
+    color: #04a73a;
+}
+.para{
+    color: #cfcac9;
+}
+.background{
+    background-color: #e40663;
+}
+.card-color h4,.card2-color h4,.card3-color h4{
+    font-weight: 700;
+}
+.p-graph p{
+    font-size: 13px;
+}
+.p-graph{
+    color: #ffff;
+    font-weight: 500;
+}
+.bgr-color{
+    background-color: #e40663 !important;
+}
+.bgr-2-color{
+    background-color: #e44406 !important;
+}
+.bgr-3-color{
+    background-color: #04a73a !important;
+}
+.p-graph-1{
+    border-right: 2px solid #c00e56;
+}
+.p-graph-2{
+    border-right: 3px solid #d14309;
+}
+.p-graph-3{
+    border-right: 2px solid #027b22;
+}
+.radius{
+    border-radius: 15% !important;
+}
+.card-img-top{
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+}
+.card-footer:last-child {
+    border-radius: 0 0 15px 15px !important;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+}
